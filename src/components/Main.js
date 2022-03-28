@@ -11,8 +11,8 @@ const INITIAL_STATE = {
 };
 
 export class Main extends Component {
-  constructor(props) {
-    super(props);
+  constructor() {
+    super();
     this.state = INITIAL_STATE;
   }
 
